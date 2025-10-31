@@ -4,13 +4,17 @@
 
 ### Posts
 - [ ] Highlight the support/oppose number depending on your choice
-- [ ] Center post contents
+- [x] Center post contents
 - [ ] Add scrolling feature
 - [ ] Add animations for votes
 
 ### Sidebar
 - [ ] Implement sidebar pages
 - [ ] Make Icon go to home page
+
+### Feed
+- [ ] Add Feed Navigation
+- [ ] Add a component or function to get posts based on some criteria
 
 ### Vision
 - A scrolling feed with opinions you can either Accept of Oppose.
@@ -22,3 +26,4 @@
 - Of course you can comment and try to persuade the ppl with opposite views.
 - Occoasionally an old post will come up for you to revote on. After this, the post is finalized and no more voting can happen. (This is not confirmed - big maybe)
 - When posts are shared by a link, they are view only.
+- We need some categories or tag system

@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import './App.css'
-import Post, { type PostProps } from "./components/Post";
+import { type PostProps } from "./components/Post";
 import Sidebar from './components/Sidebar';
+import FeedNav from './components/FeedNav';
+import Feed from './components/Feed';
 
 export default function App() {
   const initialPosts: PostProps[] = [
@@ -52,9 +54,8 @@ export default function App() {
       <Sidebar />
 
       <div className={"flex-1 bg-[#121212] flex flex-col items-center py-8"}>
-        {posts.map((post) => (
-          <Post key={post.id} {...post} onVote={handleVote} />
-        ))}
+        <FeedNav></FeedNav>
+        <Feed posts={posts} onVote={handleVote}></Feed>
       </div>
     </div>
   )
